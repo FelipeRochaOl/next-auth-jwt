@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider && next dev",
     "build": "NODE_OPTIONS=--openssl-legacy-provider && next build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start"
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && next start",
+    "server": "cd backend && yarn && yarn dev"
   },
   "dependencies": {
     "axios": "^0.21.1",
